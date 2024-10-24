@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNoecs+jzGT/HI/QobQHoB3",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ShahriyorYusufov/firstfile/blob/main/5-topshiriq\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "j8BXwhIxn7co",
+        "outputId": "dcf8748c-0acf-4d51-b01a-be58d8e2e7ff"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1D Massiv:  [1 2 3 4 5]\n",
+            "20 Massiv:\n",
+            " [[1 2 3]\n",
+            " [4 5 6]]\n",
+            "Massivlar yig'indisi:  15\n",
+            "O'rtacha:  3.0\n",
+            "Ko'paytma:  120\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "\n",
+        "#1. Massiv yaratish\n",
+        "\n",
+        "array_1d =  np.array([1, 2, 3, 4, 5])\n",
+        "array_2d =  np.array([[1, 2, 3], [4, 5, 6]])\n",
+        "\n",
+        "\n",
+        "#2. Matematik operatsiyalar\n",
+        "\n",
+        "sum_array =  np.sum(array_1d)\n",
+        "\n",
+        "mean_array = np.mean(array_1d)\n",
+        "\n",
+        "product_array = np.prod(array_1d)\n",
+        "\n",
+        "print(\"1D Massiv: \", array_1d)\n",
+        "\n",
+        "print(\"20 Massiv:\\n\", array_2d)\n",
+        "\n",
+        "print(\"Massivlar yig'indisi: \", sum_array)\n",
+        "\n",
+        "print(\"O'rtacha: \", mean_array)\n",
+        "\n",
+        "print(\"Ko'paytma: \", product_array)"
+      ]
+    }
+  ]
+}
